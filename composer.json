@@ -1,0 +1,30 @@
+{
+    "name": "IngenierosWeb/smartCARS-phpvms7",
+    "type": "phpvms-module",
+    "description": "SmartAcars integration with PHPVMS7",
+    "authors": [
+        {
+            "name": "Víctor García",
+            "email": "vgpastor@ingenierosweb.co"
+        }
+    ],
+    "require": {
+        "composer/installers": "~1.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\SmartAcars\\Providers\\SmartAcarsServiceProvider",
+                "Modules\\SmartAcars\\Providers\\EventServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\SmartAcars\\": "."
+        }
+    }
+}

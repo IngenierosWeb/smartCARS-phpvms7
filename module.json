@@ -1,0 +1,15 @@
+{
+    "name": "SmartAcars",
+    "alias": "smartacars",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\SmartAcars\\Providers\\SmartAcarsServiceProvider",
+        "Modules\\SmartAcars\\Providers\\EventServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
